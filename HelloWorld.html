@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <title>PRACTICE</title>
+    <head>
+        <style>
+        .square{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            }
+    </style>
+    <style>
+        .circle{
+            height: 100px;
+            width: 100px;
+            background-color: yellow;
+            border-radius: 50%;
+        
+        }
+        .triangle{
+            position: absolute;
+            width : 0;
+            height: 0;
+            
+            border-left:50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid;
+            border-bottom-color: red;
+            top: -100%;
+        }
+    <!--       .tree{
+            height: 100px;
+            width: 2100px;
+            background-color: green;
+            border-top-left-radius: 30%;
+            border-top-right-radius: 0%; 
+            border-bottom: : 
+            }
+    -->
+            .sqr1{
+                position: relative;
+                height: 100px;
+                width: 100px;
+                background: gray;
+            }
+
+            .sqr2{
+                position:absolute;
+                height :40px;
+                width: 40px;
+                right: 30%;
+                bottom: 0%;
+                background-color: aquamarine;
+            }
+            .branch{
+                position: relative;
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                background-color: rgb(121, 187, 21);
+            }
+            .stem{
+                position:absolute;
+                width: 20px;
+                height:40px;
+                background-color: brown;
+                bottom:-63%;
+                left:35%
+            }
+            .path{
+                position:absolute;
+                height: 100px;
+                width: 40px;
+                right: 30%;
+                bottom:-100%;
+                background-color:rgb(121, 42, 42);
+            }
+
+        </style>
+    </head>
+    <body style="background-color:blue">
+       <div class="circle"><br></div><br>
+        <br><div class="sqr1">
+            <div class="sqr2"></div>
+            <div class="path"></div>
+            <div class="triangle"></div>
+        </div><br>
+    
+        <div align="left" class="branch">
+            <div class="stem">
+                <pre class="tab" class="tab">&nbsp;&nbsp;&nbsp;</pre>
+                <div align="center" class="branch">
+                    <div class="stem"></div>
+                </div>
+                </div>
+        </div>
+       <center>
+    </center>
+    </body>
+</html>
